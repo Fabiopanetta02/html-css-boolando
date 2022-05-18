@@ -1,5 +1,6 @@
 :root{
     --orange: #FF6900;
+    --black-footer: #1A1A1A;
 }
 
 /* reset */
@@ -14,14 +15,14 @@
 header{
   background-color: var(--orange);
   position: fixed;
-  min-height: 50px;
   width: 100%;
   color: #fff;
   z-index: 1;
+  box-shadow: 0 5px 50px #000;
 }
 
 nav ul{
-  flex-basis: 16%;
+  flex-basis: 50%;
 }
 
 nav ul li{
@@ -36,10 +37,15 @@ nav > img{
   margin: 5px 0;
 }
 
+.badge{
+  display: flex;
+  flex-basis: 50%;
+  justify-content: flex-end;
+}
+
 .badge i{
   font-size: 20px;
-  margin-right: 10px;
-  flex-basis: 16%;
+  margin-right: 30px;
 }
 
 /* main */
@@ -97,7 +103,7 @@ div > img{
 /* footer */
 footer{
   color: #fff;
-  background-color: #1A1A1A;
+  background-color: var(--black-footer);
   padding: 20px 0;
 }
 
@@ -113,7 +119,12 @@ div > ul li{
 
 .social i{
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 30px;
+}
+
+.social a{
+  text-decoration: none;
+  color: #fff;
 }
 
   
@@ -123,10 +134,10 @@ div > ul li{
     margin: 0 auto;
 }
 
-.row{
+.navbar{
   display: flex;
   justify-content: space-between;
-  line-height: 50px;
+  align-items: center;
   padding: 10px 0;
 }
 
@@ -174,6 +185,16 @@ div > ul li{
   position: absolute;
   bottom: 50px;
   left: 60px;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+}
+
+.eco-left{
+  display: inline-block;
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
   background-color: green;
   color: white;
   padding: 5px 10px;
