@@ -1,6 +1,6 @@
-/* :root{
-    --pink: #E53170;
-} */
+:root{
+    --orange: #FF6900;
+}
 
 /* reset */
 * {
@@ -11,12 +11,47 @@
 
 
 /* Generics */
+header{
+  background-color: var(--orange);
+  position: fixed;
+  min-height: 50px;
+  width: 100%;
+  color: #fff;
+}
+
+nav ul{
+  flex-basis: 16%;
+}
+
+li{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+nav > img{
+  height: 40px;
+}
+
+.badge i{
+  font-size: 20px;
+  margin-right: 10px;
+  flex-basis: 16%;
+}
 
   
 /* Utils */
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-  }
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+  padding: 10px 0;
+}
 
 
