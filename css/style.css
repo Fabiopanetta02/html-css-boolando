@@ -24,7 +24,7 @@ nav ul{
   flex-basis: 16%;
 }
 
-li{
+nav ul li{
   display: inline-block;
   font-size: 20px;
   font-weight: bold;
@@ -94,6 +94,28 @@ div > img{
   cursor: pointer;
 }
 
+/* footer */
+footer{
+  color: #fff;
+  background-color: #1A1A1A;
+  padding: 20px 0;
+}
+
+div > ul li{
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.social{
+  margin-top: 10px;
+}
+
+.social i{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
   
 /* Utils */
 .container {
@@ -110,6 +132,12 @@ div > img{
 
 .row-items{
   margin: 40px 0;
+}
+
+.row-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
 }
 
 .item{
