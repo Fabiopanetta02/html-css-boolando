@@ -32,6 +32,7 @@ li{
 
 nav > img{
   height: 40px;
+  margin: 5px 0;
 }
 
 .badge i{
@@ -40,10 +41,25 @@ nav > img{
   flex-basis: 16%;
 }
 
+/* main */
+main{
+  padding-top: 100px;
+}
+
+div > img{
+  height: 700px;
+}
+
+.item-up{
+  display: inline-block;
+  position: relative;
+  width: calc(100% / 3 -10px);
+}
+
   
 /* Utils */
 .container {
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -52,6 +68,58 @@ nav > img{
   justify-content: space-between;
   line-height: 50px;
   padding: 10px 0;
+}
+
+.row-items{
+  margin: 40px 0;
+}
+
+.item{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.merch-items{
+  font-size: 14px;
+}
+
+.price-now{
+  color: red;
+  display: inline;
+  font-weight: bold;
+}
+
+.price-before{
+  text-decoration: line-through;
+}
+
+.discount{
+  display: inline-block;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+}
+
+.eco{
+  display: inline-block;
+  position: absolute;
+  bottom: 50px;
+  left: 60px;
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+}
+
+.favourite{
+  background-color: #fff;
+  padding: 10px 15px;
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: 0;
 }
 
 
