@@ -60,7 +60,7 @@ div > img{
 .item-up{
   display: inline-block;
   position: relative;
-  width: calc(100% / 3 -10px);
+  width: calc(100% / 3 - 10px);
 }
 
 
