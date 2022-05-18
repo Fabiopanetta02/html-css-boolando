@@ -57,6 +57,43 @@ div > img{
   width: calc(100% / 3 -10px);
 }
 
+
+/* hover */
+.items-1:hover{
+  content: url(../img/1b.webp);
+  cursor: pointer;
+}
+
+.items-2:hover{
+  content: url(../img/2b.webp);
+  cursor: pointer;
+}
+
+.items-3:hover{
+  content: url(../img/3b.webp);
+  cursor: pointer;
+}
+
+.items-4:hover{
+  content: url(../img/4b.webp);
+  cursor: pointer;
+}
+
+.items-5:hover{
+  content: url(../img/5b.webp);
+  cursor: pointer;
+}
+
+.items-6:hover{
+  content: url(../img/6b.webp);
+  cursor: pointer;
+}
+
+.favourite:hover{
+  color: red;
+  cursor: pointer;
+}
+
   
 /* Utils */
 .container {
