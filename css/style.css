@@ -60,7 +60,6 @@ div > img{
 .item-up{
   display: inline-block;
   position: relative;
-  width: calc(100% / 3 -10px);
 }
 
 
@@ -154,6 +153,7 @@ div > ul li{
 .item{
   display: inline-block;
   padding-right: 10px;
+  width: calc(100% / 3 - 5px);
 }
 
 .merch-items{
